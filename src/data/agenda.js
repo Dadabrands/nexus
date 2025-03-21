@@ -1,0 +1,5 @@
+export const agenda = [
+    { day: "Day 1", time: "09:00 - 19:00", title: "AI Innovations & Trends", description: "The summit kicks off with keynotes, expert panels, and discussions on AI’s impact, ethics, and the future. Hands-on workshops and a networking dinner close the day." },
+    { day: "Day 2", time: "09:00 - 20:00", title: "AI Technologies & Applications", description: "Explore the latest in generative AI, robotics, and AI-driven automation. A full day of industry-led discussions, a startup showcase, and investor insights highlight AI’s business potential." },
+    { day: "Day 3", time: "09:30 - 16:00", title: "Future of AI & Networking", description: "Dive into long-term AI trends, expert-led workshops, and the startup pitch event. The event closes with a networking session." },
+  ];

@@ -10,3 +10,9 @@ body {
   font-family: "Syne", sans-serif;
 }
 
+
+@theme {
+  --font-family-sans: "Syne", sans-serif;
+  /* --color-black: #1C2526; */
+  --color-blue: #0147ff;
+}

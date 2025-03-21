@@ -7,19 +7,27 @@ import Testimonials from "./components/sections/Testimonials";
 import Register from "./components/sections/Register";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
+import MainLayout from "./components/layout/MainLayout";
+import KeynoteSpeakers from "./components/sections/KeynoteSpeakers";
+import TicketOptions from "./components/sections/TicketOptions";
+
 
 function App() {
   return (
     <div className="bg-black text-white">
       <Header />
       <main>
-        <Hero />
-        <Speakers />
-        <Agenda />
-        <WhyAttend />
-        <Testimonials />
-        <Register />
-        <Contact />
+        <MainLayout>
+         <Hero />
+         <Speakers />
+         <Agenda />
+         <KeynoteSpeakers />
+         <WhyAttend />
+         <Testimonials />
+         <Register />
+         <TicketOptions />
+         <Contact />
+         </MainLayout>
       </main>
       <Footer />
     </div>
